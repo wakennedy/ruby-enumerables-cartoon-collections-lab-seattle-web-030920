@@ -1,9 +1,8 @@
 def roll_call_dwarves(dwarves)
   hash = {}
   dwarves.each_with_index do |item, index|
-    hash[item] = index
+    puts "#{index + 1}. #{item}"
   end
-  puts hash
 end
 
 def summon_captain_planet# code an argument here
